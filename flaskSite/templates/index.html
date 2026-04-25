@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}">
+</head>
+<body>
+
+<h1>Calculator</h1>
+
+<button onclick="calc('+')">+</button>
+
+<p id="out"></p>
+
+<script src="{{ url_for('static', filename='js/calc.js') }}"></script>
+
+</body>
+</html>
